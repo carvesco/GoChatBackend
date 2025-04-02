@@ -11,4 +11,4 @@ RUN go mod download
 COPY . .
 RUN go build -v -o backend
 
-CMD ["/app/main"]
+CMD ["/app/backend"]
